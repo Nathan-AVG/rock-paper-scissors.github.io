@@ -5,18 +5,30 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <title>Rock-Paper-Scissors</title>
 </head>
 <body>
     <div class="title">Rock-Paper-Scissors</div>
-    <div class="user-container">
-        <button class="user" value="1">🖐</button>
-        <button class="user" value="2">✌</button>
-        <button class="user" value="3">✊</button>
-    </div>
-    <p class="enemy">💻:The Enemy's thinking...</p>
-    <div class="result-container">
-        <p class="result"></p>
+    <div class="container">
+        <div class="user-container">
+            <button class="user" value="1">🖐</button>
+            <button class="user" value="2">✌</button>
+            <button class="user" value="3">✊</button>
+        </div>
+        <p class="enemy animation">💻:The Enemy's waiting (and also thinking)</p>
+        <div class="score-container">
+            <div class="live">
+                <div class="lives play">✌</div>
+                <div class="lives comp">✊</div>
+            </div>
+            <p class="score">0-0</p>
+        </div>
+        <div class="result-box">
+            <p class="text">result</p>
+            <div class="result-container">
+                <p class="result"></p>
+            </div>
+        </div>
     </div>
 
     <script src="script.js"></script>

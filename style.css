@@ -1,0 +1,16 @@
+.user-container{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.result-container{
+    border: 3px solid lightblue;
+    border-radius: 10px;
+    width: 200px;
+    height: auto;
+    text-align: center;
+}
+
+.enemy{
+    transition: all .07s ease;
+}
